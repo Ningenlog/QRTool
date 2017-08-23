@@ -12,6 +12,14 @@
 		31D80B691F481C3B00AEE5E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31D80B671F481C3B00AEE5E7 /* Main.storyboard */; };
 		31D80B6B1F481C3B00AEE5E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D80B6A1F481C3B00AEE5E7 /* Assets.xcassets */; };
 		31D80B6E1F481C3B00AEE5E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31D80B6C1F481C3B00AEE5E7 /* LaunchScreen.storyboard */; };
+		31D80B7A1F481DE000AEE5E7 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D80B791F481DE000AEE5E7 /* TabBarController.swift */; };
+		31D80B7C1F48231000AEE5E7 /* QRModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D80B7B1F48231000AEE5E7 /* QRModel.swift */; };
+		31D80B7E1F48279A00AEE5E7 /* CreatQRController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D80B7D1F48279A00AEE5E7 /* CreatQRController.swift */; };
+		31D80B801F4828A300AEE5E7 /* QRTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D80B7F1F4828A300AEE5E7 /* QRTool.swift */; };
+		31D80B861F482B2600AEE5E7 /* ScanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D80B851F482B2600AEE5E7 /* ScanController.swift */; };
+		31D80B881F482B3500AEE5E7 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D80B871F482B3500AEE5E7 /* SettingController.swift */; };
+		31D80B8A1F482C1400AEE5E7 /* ZZTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D80B891F482C1400AEE5E7 /* ZZTabBar.swift */; };
+		31D80B8C1F48517D00AEE5E7 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D80B8B1F48517D00AEE5E7 /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		31D80B6A1F481C3B00AEE5E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31D80B6D1F481C3B00AEE5E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31D80B6F1F481C3B00AEE5E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31D80B791F481DE000AEE5E7 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		31D80B7B1F48231000AEE5E7 /* QRModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRModel.swift; sourceTree = "<group>"; };
+		31D80B7D1F48279A00AEE5E7 /* CreatQRController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatQRController.swift; sourceTree = "<group>"; };
+		31D80B7F1F4828A300AEE5E7 /* QRTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRTool.swift; sourceTree = "<group>"; };
+		31D80B851F482B2600AEE5E7 /* ScanController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanController.swift; sourceTree = "<group>"; };
+		31D80B871F482B3500AEE5E7 /* SettingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
+		31D80B891F482C1400AEE5E7 /* ZZTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZTabBar.swift; sourceTree = "<group>"; };
+		31D80B8B1F48517D00AEE5E7 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,10 @@
 		31D80B621F481C3B00AEE5E7 /* QRTool */ = {
 			isa = PBXGroup;
 			children = (
+				31D80B781F481CED00AEE5E7 /* Other */,
+				31D80B771F481CCD00AEE5E7 /* Model */,
+				31D80B761F481CC900AEE5E7 /* View */,
+				31D80B751F481CC400AEE5E7 /* Controller */,
 				31D80B631F481C3B00AEE5E7 /* AppDelegate.swift */,
 				31D80B651F481C3B00AEE5E7 /* ViewController.swift */,
 				31D80B671F481C3B00AEE5E7 /* Main.storyboard */,
@@ -62,6 +82,42 @@
 				31D80B6F1F481C3B00AEE5E7 /* Info.plist */,
 			);
 			path = QRTool;
+			sourceTree = "<group>";
+		};
+		31D80B751F481CC400AEE5E7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				31D80B791F481DE000AEE5E7 /* TabBarController.swift */,
+				31D80B7D1F48279A00AEE5E7 /* CreatQRController.swift */,
+				31D80B851F482B2600AEE5E7 /* ScanController.swift */,
+				31D80B871F482B3500AEE5E7 /* SettingController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		31D80B761F481CC900AEE5E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		31D80B771F481CCD00AEE5E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				31D80B7B1F48231000AEE5E7 /* QRModel.swift */,
+				31D80B7F1F4828A300AEE5E7 /* QRTool.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		31D80B781F481CED00AEE5E7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				31D80B891F482C1400AEE5E7 /* ZZTabBar.swift */,
+				31D80B8B1F48517D00AEE5E7 /* UIColor+Extension.swift */,
+			);
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +192,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31D80B7C1F48231000AEE5E7 /* QRModel.swift in Sources */,
+				31D80B861F482B2600AEE5E7 /* ScanController.swift in Sources */,
+				31D80B7A1F481DE000AEE5E7 /* TabBarController.swift in Sources */,
+				31D80B801F4828A300AEE5E7 /* QRTool.swift in Sources */,
+				31D80B881F482B3500AEE5E7 /* SettingController.swift in Sources */,
+				31D80B8A1F482C1400AEE5E7 /* ZZTabBar.swift in Sources */,
+				31D80B7E1F48279A00AEE5E7 /* CreatQRController.swift in Sources */,
 				31D80B661F481C3B00AEE5E7 /* ViewController.swift in Sources */,
 				31D80B641F481C3B00AEE5E7 /* AppDelegate.swift in Sources */,
+				31D80B8C1F48517D00AEE5E7 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
